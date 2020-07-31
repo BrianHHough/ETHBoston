@@ -1,0 +1,37 @@
+# Accept Crypto in Minutes With Coinbase Commerce
+### Bojan Joveski + Cindy Kuang 
+
+
+## Commerce
+Commerce allows merchants to easily accept crypto payments with email.
+By making an account on a website, in minutes you can make payments and withdraw to any address you choose.
+
+## Code Highlights
+Developers can leverage the Coinbase Commerce API to:
+- Generate and monitor blockchain addresses.
+  - THis is useful if you need per-user or per-session interaction: addresses monitored for 7 days after creation.
+  - Currencies enabled: ETH, USDC, BTC, LTC and BCH; BIP32/44 compatible.
+  - One master wallet derives all addresses.
+- If payment confirmed on the blockchain, can send a notification that particular thing happened.
+- Send webhook notifications: useful if you want to trigger some business logic in response to some payment event.
+  - Mempool detection; block confirmation; amounts in crypto and fiat; etc.
+- Integrate out of the box UX elements: useful if you need to quickly get your project's frontend off the ground:
+  - automated email notifications.
+  - Redirect URL on successful/failed payment.
+  - Web3 (AKA Metamask) integration.
+  - Etc.
+
+## Examples
+-  Permalinked hosted pages: "Help save the Earth: Donating to the Environmental Defense Fund....BTC, ETH, BCH, etc."
+- Embeddable widget: 
+- QR code generation: mobile wallets or real life interactions
+
+## Point of Sale capabilities
+- coinfluence
+- jira
+- codeflow
+- circle ci
+- kibana
+- ic levels
+- coda
+- github
