@@ -1,0 +1,47 @@
+# Blockchain and IoT: Building on Algorand
+
+- Pure proof of stake (PPOS blockchain)
+- Permissionless
+- Fast tranasaction throughput 
+
+## Verifiable Random Function (VRFs)
+- Cryptographic primative that maps inputs to verifiable pseudorandom outputs.
+- VRFs were introdueced by Micali (founder of Algorand), Rabin, and VAdhan in '99
+- open sourced; used in block proposal and committee selection; cryptographic lottery; self selected adn verifiable
+- talkng about economic decentralizaton: vote on who gets rewards; consensus is decentralized
+
+## Algorand Consensus Overview:
+- one account is chosen to propose block
+- committee chosen to soft vote on the proposal
+- new committee chosen
+
+algorand.foundation/token-dynamics
+-all uers online and offline eligible to earn rewards
+
+## TestNet
+- devnet; 
+- testnet (1 year)
+- mainnet (2 months)
+
+## Algorand APIs and command line tools
+- algod process: protocol and read only Rest APIs
+
+Swagger.json
+
+## SDK Functionality: go; python; javascript
+- stand alone functions; create accounts; create pneumonics; create transaction; sign transaction; airgrapped applications
+- kmd wrapper; algod wrapper; networked applications
+
+algorand.foundation/roadmap
+developer.algorand.org
+community.algorand.org
+
+## VRasberry Pi: single board of computer; general purpose input/output pins; 
+- 2 breadboards - set up circuitry
+- Labels to connect in and out;
+- Bradboard connected to RFID scanner
+- Never had to solder 
+
+User RFID to read hardware account; rewards; total rewards. Making request by python SDK
+- Can also run a node through Rasberry Pi
+- Take account; go to the algorand dispenser
